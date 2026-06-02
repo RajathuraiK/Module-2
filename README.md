@@ -54,3 +54,30 @@ result(a,b)
 ## Result
 
 The Python program that defines a function which accepts two values and returns their **modulo** using the `%` operator is successfully executed.
+
+# Ex 3 Lambda Function in Python: Addition of Two Numbers
+
+## 🎯 Aim
+To write a Python program that defines a **lambda function** which takes two arguments `a` and `b`, and returns their sum.
+
+## 🧠 Algorithm
+1. Get two integer inputs from the user.
+2. Use a **lambda function** to define a function `f` that returns `a + b`.
+3. Call the function with the user inputs and print the result.
+
+## 🧾 Program
+
+```
+a=int(input())
+b=int(input())
+f = lambda a,b: a+b
+print(f(a,b))
+```
+
+## Output
+
+<img width="912" height="346" alt="image" src="https://github.com/user-attachments/assets/89e21892-293e-488d-8556-0a4ee9934738" />
+
+## Result
+
+The Python program that defines a **lambda function** which takes two arguments `a` and `b`, and returns their sum is successfully executed.
